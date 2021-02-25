@@ -1,3 +1,0 @@
-git branch -M master
-git remote add origin https://github.com/Dilara26-cyber/Peter_Answers_Clone.git
-git push -u origin master
