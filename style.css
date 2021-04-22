@@ -28,6 +28,7 @@ i {
 }
 #hmbrg {
   margin-right: auto;
+  cursor: pointer;
 }
 #tweetTheFortuneBtn {
   background-color: white;
@@ -242,7 +243,6 @@ input:focus::placeholder {
   border-radius: 3px;
 }
 .nav_list_item li:hover {
-  cursor: pointer;
   background-color: rgba(164, 0, 0, 0.2);
 }
 .hmbrg_logo {
