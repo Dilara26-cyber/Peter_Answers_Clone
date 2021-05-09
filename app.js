@@ -110,7 +110,7 @@ petition.addEventListener('keydown', (e) => {
         str = e.target.value.slice(1);
         let capitalized = str.charAt(0).toUpperCase();
         changed_msg.remove();
-        empty_p.textContent = capitalized + str.slice(1) + '.';
+        empty_p.textContent = capitalized + str.slice(1);
       });
     });
   }
