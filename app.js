@@ -108,6 +108,7 @@ petition.addEventListener('keydown', (e) => {
       }
       btn.addEventListener('click', () => {
         str = e.target.value.slice(1);
+        str.charAt(0).toUpperCase();
         changed_msg.remove();
         empty_p.textContent = str;
       });
